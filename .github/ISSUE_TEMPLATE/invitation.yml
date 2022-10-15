@@ -1,0 +1,40 @@
+name: 😎 Invite me to Web3 Astronaut
+description: I would like to be part of the community.
+title: "Please invite me to the community"
+labels: [github-invitation]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Insert your name here
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: 📛 Discord Username (if applicable)
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
+  - type: dropdown
+    id: source
+    attributes:
+      label: ☄️ How did you discover Web3 Astronaut
+      multiple: true
+      options:
+        - Search Engine (Google, Firefox, and others)
+        - Recommended by friend or Colleague
+        - Social Media
+        - Blog or Publication
+        - Third-party Review
+        - Other
+      validations:
+        required: true
+  - type: textarea
+    id: Additional
+    attributes:
+      label: 🌌 What brought you to Web3 Astronaut?
+      description: Where did you meet Web3 Astronaut? What do you like about this community? Why do you want to join?
+    validations:
+      required: true
