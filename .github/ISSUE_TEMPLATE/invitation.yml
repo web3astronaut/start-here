@@ -29,8 +29,6 @@ body:
         - Blog or Publication
         - Third-party Review
         - Other
-      validations:
-        required: true
   - type: textarea
     id: Additional
     attributes:
